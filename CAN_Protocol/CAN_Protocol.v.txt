@@ -40,7 +40,6 @@ module can_controller (
                     can_tx <= 1;
                 end
             end
-            
             if (!tx_active) begin
                 rx_buffer <= {rx_buffer[6:0], can_rx};
                 data_out <= rx_buffer;
