@@ -29,6 +29,5 @@ A=4'b1110; #10;
 A=4'b1111; #10;
 
 $finish;
-
 end
 endmodule
