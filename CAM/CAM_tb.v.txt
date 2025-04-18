@@ -29,6 +29,7 @@ initial begin
     #10 rst = 0;
 
     // Write data into CAM
+
     #10 wr_en = 1; data_in = 8'h3F; #10;
     #10 wr_en = 1; data_in = 8'h7A; #10;
     #10 wr_en = 1; data_in = 8'hC3; #10;
