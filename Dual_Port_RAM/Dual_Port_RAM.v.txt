@@ -5,6 +5,7 @@ module DUAL_PORT_RAM  #(
     parameter ADDR_WIDTH = 4   
     )
     (
+
     input wire clk,               
     input wire we_a,               
     input wire we_b,               
