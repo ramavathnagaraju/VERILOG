@@ -7,7 +7,6 @@ module DMux_1X16(
     output [15:0] Y
     );
 
-
 wire W1, W2;
 
 DMux_1X2 M1(.A(A), .S(S[3]), .Y0(W1), .Y1(W2));
