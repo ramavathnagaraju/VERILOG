@@ -12,7 +12,6 @@ initial begin
 
    $monitor("At time %0t: A = %b, S = %b, Y = %b", $time, A, S, Y);
 
-   
         A = 1'b0; S = 4'b0010; #10; A = 1'b1; S = 4'b0010; #10;
         A = 1'b0; S = 4'b0011; #10; A = 1'b1; S = 4'b0011; #10;
         A = 1'b0; S = 4'b0100; #10; A = 1'b1; S = 4'b0100; #10;
