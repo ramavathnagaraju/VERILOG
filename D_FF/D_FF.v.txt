@@ -4,6 +4,7 @@ module D_FF(
     input D,
     output reg Q
     );
+
     initial begin
     Q=0;
     end
