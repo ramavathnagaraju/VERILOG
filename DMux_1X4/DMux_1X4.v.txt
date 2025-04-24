@@ -1,7 +1,6 @@
 
 `timescale 10ns / 1ps
 
-
 module DMux_1X4(
     input A,
     input [1:0] S,
