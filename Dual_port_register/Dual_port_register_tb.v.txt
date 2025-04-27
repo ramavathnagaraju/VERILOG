@@ -47,7 +47,7 @@ module Dual_port_register_file_tb;
         #10 we = 1;
         wa = 5'b01100;
         wd = 32'h12345678;
-        
+
         #10 we = 0;
         ra1 = 5'b00100;
         ra2 = 5'b01100;
