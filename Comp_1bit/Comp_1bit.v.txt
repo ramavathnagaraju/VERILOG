@@ -6,6 +6,7 @@ module COMP1(
     output G,
     output L
     );
+
     assign E=~(A^B);
     assign G=A&(~B);
     assign L=(~A)&B;
