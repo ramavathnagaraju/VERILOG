@@ -6,7 +6,6 @@ module Decade_counter_4bit(
     input RESET,
     output [3:0] Q
     );
-    
    wire [3:0] T;
    assign T[0] = 1'b1;
    assign T[1] = Q[0];
