@@ -5,7 +5,6 @@ module Decade_counter_4bit_tb;
     reg CLK;
     reg RESET;
     wire [3:0] Q;
-
     Decade_counter_4bit uut (.CLK(CLK), .RESET(RESET), .Q(Q) );
 
     initial begin
