@@ -9,7 +9,6 @@ module EPROM(
     input wire erase,
     output reg [15:0] data
 );
-
     reg [15:0] eprom [15:0];
     integer i;
 
