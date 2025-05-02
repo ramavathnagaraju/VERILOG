@@ -15,7 +15,6 @@ module EPROM_tb;
         .erase(erase),
         .data(data)
     );
-
     always #5 clk = ~clk;
 
     initial begin
